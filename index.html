@@ -7,7 +7,38 @@
     <link
     href=”https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css”rel=”stylesheet”>
   </head>
-  <body>
-    <h1>Parv learning Tailwind</h1>
+  <style>
+    .container {
+      background-color: rgb(2, 128, 201);
+      color: white;
+    }
+
+    h2 {
+      text-align: center;
+    }
+  </style>
+  <body class="text-center">
+    <center>
+      <h1>Parv learning Tailwind</h1>
+      <h1>Tailwind CSS Layout</h1>
+      <h2 style="color: rgb(0, 143, 210)">Tailwind CSS Container</h2>
+      <div class="container mx-auto px-20">This is mx auto class</div>
+
+      <h1>Tailwind CSS Box Sizing and Content</h1>
+      <!-- <element class="box-border">..</element> -->
+      <div class="box-border h-28 w-32 p-4 border-4 bg-blue-500 m4">
+        This is box border
+      </div>
+      <div class="box-content h-28 w-32 p-4 border-4 bg-cyan-500 m4">
+        This is box content
+      </div>
+      <!--  -->
+      <b>Tailwind CSS block Class</b>
+      <div class="bg-green-200 p-4 mx-16 space-y-4">
+        <span class="block h-12 bg-green-500 rounded-lg">1</span>
+        <span class="block h-12 bg-green-500 rounded-lg">2</span>
+        <span class="block h-12 bg-green-500 rounded-lg">3</span>
+      </div>
+    </center>
   </body>
 </html>
